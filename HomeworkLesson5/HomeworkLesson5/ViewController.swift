@@ -68,7 +68,14 @@ class ViewController: UIViewController {
             return firstString > secondString
         }
         print(stringMoreThanString("авб", "ввш"))
+        
+        //zadanie4
+//        func cycleFunc(){
+//            print(1)
+//            print(2)
+//            cycleFunc()
+//        }
+//        cycleFunc()
     }
-
 }
 
