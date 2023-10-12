@@ -43,6 +43,24 @@ class ViewController: UIViewController {
         }
         
         print(delenie(firstNumber, secondNumber))
+        
+        
+        //zadanie2
+        func sumOfNumbers(_ numberFourZero: Int) -> Int{
+            var first = 0
+            var second = 0
+            var third = 0
+            var fourth = 0
+            var sum = 0
+            first = Int(numberFourZero / 1000)
+            second = Int((numberFourZero - first * 1000) / 100)
+            third = Int(((numberFourZero - first * 1000) - (second * 100)) / 10)
+            fourth = numberFourZero % (first * 1000 + second * 100 + third * 10)
+            sum = first + second + third + fourth
+            return sum
+        }
+        
+        print(sumOfNumbers(4173))
     }
 
 
