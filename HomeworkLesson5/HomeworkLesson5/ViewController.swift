@@ -61,8 +61,14 @@ class ViewController: UIViewController {
         }
         
         print(sumOfNumbers(4173))
+        
+        //zadanie3
+        
+        func stringMoreThanString(_ firstString: String, _ secondString: String) -> Bool{
+            return firstString > secondString
+        }
+        print(stringMoreThanString("авб", "ввш"))
     }
-
 
 }
 
