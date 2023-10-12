@@ -76,6 +76,20 @@ class ViewController: UIViewController {
 //            cycleFunc()
 //        }
 //        cycleFunc()
+        
+        //zadanie5
+        
+        func numberInStepenTwo(_ number: Int, stepen: Int = 2) -> Int{
+            var count = 1
+            var numberIn = 1
+            
+            while count <= stepen {
+                numberIn *= number
+                count+=1
+            }
+            return numberIn
+        }
+        print(numberInStepenTwo(4))
     }
 }
 
